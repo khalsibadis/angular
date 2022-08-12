@@ -1,0 +1,23 @@
+{
+  "listPays": [
+ {
+      "nom": "France",
+      "population": 5,
+      "superficie": 2,
+      "contient": "Europe",
+      "produit": 250,
+      "image":
+        "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

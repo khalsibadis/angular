@@ -1,0 +1,9 @@
+#pl{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#pl button{
+  margin: 20px;
+
+}

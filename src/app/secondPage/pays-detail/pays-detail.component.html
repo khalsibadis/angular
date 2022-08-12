@@ -1,0 +1,57 @@
+<header>
+  <h1 class="mb-1">Nom De pays</h1>
+  <div id="pl">
+    <button class="btn btn-primary" href="" role="button">Gestion des pays</button>
+
+</div>
+
+</header>
+
+
+<table>
+  <th>
+  <tr>Nom</tr>
+  {{pays.nom}}
+  <tr>superficie</tr>
+  <tr>Continent</tr>
+  <tr>Population</tr>
+  <tr>Produit intérieur brut  </tr>
+
+</th>
+</table>
+
+
+<div class="container">
+  <div class="row">
+    <button class="btn btn-primary" >Event List</button>
+  </div>
+  <div  class="content-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card card-block card-stretch card-height blog-list">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <div class="image-block">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+
+                  <h5><b>  <i class="mb-2">{{pays.nom}}</i></b></h5>
+
+                  <div class="blog-description p-2">
+
+
+                    <p>Place number :{{pays.superficie}}</p>
+                    <p>Date :{{pays.population}}</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
